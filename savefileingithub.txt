@@ -1,0 +1,56 @@
+Sushant Jasrotia@Accular MINGW64 ~
+$ cd /c
+Sushant Jasrotia@Accular MINGW64 /c
+$ cd git/
+
+Sushant Jasrotia@Accular MINGW64 /c/git
+$ ls
+(for config
+Sushant Jasrotia@Accular MINGW64 /c/git
+$ git config --global user.name "sushantjasrotia"
+
+Sushant Jasrotia@Accular MINGW64 /c/git
+$ git config --global user.email "sushantjasrotia94@gmail.com"
+
+Sushant Jasrotia@Accular MINGW64 /c/git
+$ git clone https://github.com/sushantjasrotia/TestGit.git
+Cloning into 'TestGit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+)
+
+Sushant Jasrotia@Accular MINGW64 /c/git/TestGit (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sushant Jasrotia@Accular MINGW64 /c/git/TestGit (main)
+$ git commit -m "first committe" text.txt
+[main 30bc027] first committe
+ 1 file changed, 4 insertions(+)
+
+Sushant Jasrotia@Accular MINGW64 /c/git/TestGit (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sushantjasrotia/TestGit.git
+   463044f..30bc027  main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
+
