@@ -20,16 +20,8 @@ $ git add  savefileingithub.txt(For new file start here)
 
 Sushant Jasrotia@Accular MINGW64 /c/git/TestGit (main)
 $ git status (for mofidy start here)
-On branch main
-Your branch is up to date with 'origin/main'.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   text.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-
+ 
 Sushant Jasrotia@Accular MINGW64 /c/git/TestGit (main)
 $ git commit -m "first committe" text.txt
  
